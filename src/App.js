@@ -6,11 +6,13 @@ import { CssBaseline, Box } from "@mui/material";
 import Manage from "./components/admin/Manage";
 import Dashboard from "./components/admin/Dashboard";
 import ViewData from "./components/admin/ViewData";
+import TestRedux1 from "./components/TestRedux1";
+import TestRedux2 from "./components/TestRedux2";
 
 function App() {
   return (
     <>
-      <CssBaseline>
+      {/* <CssBaseline>
         <div className="app">
           <SideBar />
           <main className="content">
@@ -26,7 +28,10 @@ function App() {
             </div>
           </main>
         </div>
-      </CssBaseline>
+      </CssBaseline> */}
+      <TestRedux1 />
+      <hr />
+      <TestRedux2 />
     </>
   );
 }
